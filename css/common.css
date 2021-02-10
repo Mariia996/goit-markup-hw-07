@@ -1,82 +1,7 @@
-body {
-  background-color: var(--primary-bg-color);
-  color: var(--text-main-color);
-
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-:root {
-  --text-main-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-bg-color: #ffffff;
-  --secondary-bg-color: #2f303a;
-  --primary-white-color: #ffffff;
-  --secondary-white-color: rgba(255, 255, 255, 0.6);
-  --primary-bg-button: #f5f4fa;
-  --icons-color: #afb1b8;
-}
-
-/* основной цвет фона #FFFFFF */
-/* цвет основного текста #757575 */
-/*вторичный цвет #212121 */
-/* акцент #2196F3 */
-/* белый #FFFFFF */
-/*белый с прозрачностью rgba(255, 255, 255, 0.6) */
-/* цвет фона шапки и футера #2F303A */
-/* вторичный цвет фона #F5F4FA */
-/* 1200*/
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-}
-
-.img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  /* outline: 2px solid tomato; */
-}
-
 /* ======== HEADER ======== */
 /* ======== Site-nav ======== */
 
-.header-page {
+/* .header-page {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
@@ -92,9 +17,9 @@ p {
   align-items: center;
 
   margin-right: auto;
-}
+} */
 
-.logo {
+/* .logo {
   color: #2196f3;
   text-decoration: none;
 
@@ -110,9 +35,9 @@ p {
 
 .logo-header {
   color: #212121;
-}
+} */
 
-.site-nav {
+/* .site-nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -157,11 +82,11 @@ p {
   left: 0;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
+} */
 
 /* ========= Contacts ========= */
 
-.site-contacts {
+/* .site-contacts {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -198,21 +123,21 @@ p {
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
+} */
 
 /* ======== END HEADER ======== */
 
 /* ======== FOOTER ======== */
 
-.container.all-footer {
+/* .container.all-footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-}
+} */
 
 /* ======== ADDRESS ======== */
 
-.footer-container {
+/* .footer-container {
   width: 270px;
 }
 
@@ -268,13 +193,13 @@ p {
 .address-list-item > .link:hover,
 .address-list-item > .link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ======== END ADDRESS ======== */
 
 /* ======== JOIN SOCIAL LINKS ======== */
 
-.join {
+/* .join {
   text-transform: uppercase;
 }
 
@@ -291,12 +216,12 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   color: #ffffff;
-}
+} */
 /* ======== END JOIN SOCIAL LINKS ======== */
 
 /* ======== SIGN UP FORM ======== */
 
-.footer-container.mailing-container {
+/* .footer-container.mailing-container {
   width: 570px;
 }
 
@@ -350,7 +275,7 @@ p {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* ======== END SIGN UP FORM ======== */
 
@@ -358,7 +283,7 @@ p {
 
 /* Hidden header */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -367,6 +292,6 @@ p {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
+} */
 
 /* ======== END FOOTER ======== */
